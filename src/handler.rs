@@ -2,7 +2,7 @@ use crate::Options;
 use trust_dns_server::server::{Request, RequestHandler, ResponseHandler, ResponseInfo};
 
 
-//DNS Request handler
+/// DNS Request handler
 #[derive(Clone, Debug)]
 pub struct Handler {}
 
